@@ -2,11 +2,13 @@ import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-import App from "./App";
+import TicTacToe from "./TicTacToe";
+import FilterableProductTable from "./FilterableProductTable";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <App />
+    <TicTacToe />
+    <FilterableProductTable />
   </StrictMode>
 );
